@@ -39,4 +39,4 @@ stages:
           $(tag)
     strategy:
       matrix:
-        max-parallel: 1
+        max-parallel: 2
