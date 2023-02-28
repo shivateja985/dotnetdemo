@@ -37,6 +37,4 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-      strategy:
-        matrix:
-          max-parallel: 2
+
